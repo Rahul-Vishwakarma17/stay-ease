@@ -262,8 +262,8 @@ Possible future enhancements include:
 **Rahul Vishwakarma**
 
 - GitHub: https://github.com/Rahul-Vishwakarma17
-- Portfolio: Add your portfolio link here
-- LinkedIn: Add your LinkedIn link here
+- Portfolio: https://portfolio-sable-gamma-8lm4286ch3.vercel.app/
+- LinkedIn: https://www.linkedin.com/in/rahul-vishwakarma-118675374/
 
 ---
 
