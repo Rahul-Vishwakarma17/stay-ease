@@ -119,41 +119,7 @@ export const getPropertyById = async (req, res) => {
 };
 
 
-// So the next logical step is Update Property.
 
-// But there's one important thing we'll handle here:
-
-// Only the host who owns a property should be able to edit it. 🔐
-
-// That will combine the two concepts we've already learned:
-
-// JWT Authentication
-//         +
-// Property.host
-//         ↓
-// Ownership Authorization
-
-
-
-// Update Property
-
-// The flow will be:
-
-// PUT /api/properties/:id
-//         ↓
-// protect middleware 🔒
-//         ↓
-// Find property
-//         ↓
-// Check ownership
-//         ↓
-// Update property
-//         ↓
-// MongoDB
-
-// The important new concept is authorization:
-
-// Being logged in doesn't automatically mean you can edit every property. You must also own that property.
 
 
 export const updateProperty = async (req, res) => {
@@ -198,22 +164,6 @@ export const updateProperty = async (req, res) => {
 };
 
 
-
-// Delete Property
-
-// The flow is:
-
-// DELETE /api/properties/:id
-//           ↓
-//    protect middleware 🔒
-//           ↓
-//     Find property
-//           ↓
-//    Check ownership
-//           ↓
-//        Delete
-//           ↓
-//       MongoDB
 
 
 

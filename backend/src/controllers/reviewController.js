@@ -60,41 +60,6 @@ export const createReview = async (req, res) => {
 
 
 
-// What's happening?
-
-// The interesting part is:
-
-// const booking = await Booking.findOne({
-//   property: propertyId,
-//   guest: req.user.userId,
-//   status: "confirmed",
-// });
-
-// We're asking MongoDB:
-
-// Does this logged-in user have a confirmed booking for this property?
-
-// If no:
-
-// ❌ Cannot review
-
-// If yes:
-
-// ✅ Continue
-
-// Then we check:
-
-// const existingReview = await Review.findOne({
-//   property: propertyId,
-//   guest: req.user.userId,
-// });
-
-// This prevents:
-
-// Rahul → Beach Villa → Review #1 ✅
-// Rahul → Beach Villa → Review #2 ❌
-
-
 
 
 

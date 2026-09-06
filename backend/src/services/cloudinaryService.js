@@ -29,12 +29,3 @@ export const uploadToCloudinary = (fileBuffer) => {
   });
 };
 
-// Now our architecture is cleaner:
-
-// Controller
-//    ↓
-// Cloudinary Service
-//    ↓
-// Cloudinary
-
-// The controller doesn't need to know all the Cloudinary upload details.

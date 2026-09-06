@@ -1,34 +1,4 @@
-// import { Link } from "react-router-dom";
 
-// function Home() {
-//   return (
-//     <main>
-//       <section>
-//         <p>WELCOME TO STAYEASE</p>
-
-//         <h1>
-//           Find a place
-//           <br />
-//           you'll love to stay.
-//         </h1>
-
-//         <p>
-//           Discover comfortable stays, book with confidence,
-//           and enjoy your journey.
-//         </p>
-
-//         <Link to="/properties">
-//           Explore Properties
-//         </Link>
-//       </section>
-//     </main>
-//   );
-// }
-
-// export default Home;
-
-
-// After CSS 
 
 import { Link } from "react-router-dom";
 

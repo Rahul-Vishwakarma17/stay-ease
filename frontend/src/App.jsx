@@ -95,21 +95,3 @@ function App() {
 export default App;
 
 
-
-// User opens /host
-//        ↓
-// Is logged in?
-//        ↓
-//    Yes
-//        ↓
-// user.role === "host"?
-//     ↙          ↘
-//   Yes           No
-//    ↓             ↓
-// Host Dashboard   Home
-
-// So if a guest manually types:
-
-// /host
-
-// they get redirected to /.

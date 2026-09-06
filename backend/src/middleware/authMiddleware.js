@@ -25,28 +25,3 @@ export const protect = (req, res, next) => {
 };
 
 
-// req.user = decoded; 
-
-// the req.user contains this 
-
-// {
-//   userId: user._id,
-//   role: user.role
-// }
-
-// further used by PropertyController 
-// // Comes from authenticated user
-//       host: req.user.userId,
-
-
-// So after authentication:
-
-// req.user.userId
-//       ↓
-// User's MongoDB ID
-
-// Therefore:
-
-// host: req.user.userId
-
-// automatically connects the property to the person who created it.

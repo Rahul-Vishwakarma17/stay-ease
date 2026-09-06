@@ -1,25 +1,3 @@
-// import { Link } from "react-router-dom";
-
-// function PropertyCard({ property }) {
-//   return (
-//     <Link to={`/properties/${property._id}`}>
-//       <div>
-//         <h2>{property.title}</h2>
-
-//         <p>{property.location?.city}</p>
-
-//         <p>₹{property.pricePerNight} / night</p>
-
-//         <p>Up to {property.maxGuests} guests</p>
-//       </div>
-//     </Link>
-//   );
-// }
-
-// export default PropertyCard;
-
-
-// After applying css 
 
 import { Link } from "react-router-dom";
 
